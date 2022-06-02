@@ -1,0 +1,107 @@
+<!-- 
+ <div>
+  <a class="navbar-brand">Responsive navbar</a>
+  <span class="toggle" (click)="isMenuCollapsed=!isMenuCollapsed"></span>
+</div>
+
+  <div [ngbCollapse]="isMenuCollapsed" class=" navbar-collapse collapse navigation" >
+   <div class ="d-flex">
+    <ul ngbNav #nav="ngbNav" [(activeId)]="active"  orientation="vertical">
+      <li ngbNavItem="home">
+        <a routerLink="/" ngbNavLink >
+          <span class="icon"><i class="fas fa-home"></i></span>
+          <span class="title">Home</span>
+        </a>
+       </li>
+      <li ngbNavItem="about">
+        <a routerLink="about" ngbNavLink >
+          <span class="icon"><i class="fas fa-address-card"></i></span>
+          <span class="title">About</span>
+        </a>
+       </li>
+      <li ngbNavItem="services">
+        <a routerLink="services" ngbNavLink >
+          <span class="icon"><i class="fas fa-tools"></i></span>
+          <span class="title">Services</span>
+        </a>
+      </li>
+      <li ngbNavItem="contact">
+        <a routerLink="contact" ngbNavLink >
+          <span class="icon"><i class="fas fa-phone-square-alt"></i></span>
+          <span class="title">Contact</span>
+        </a>
+       </li>
+    </ul>
+  
+    <div [ngbNavOutlet]="nav" class="ml-4"></div> 
+    <router-outlet></router-outlet>
+  </div>
+</div>  -->
+
+
+
+
+<!-- <div class="sidebar"  [ngClass]="{'active': toggled}">
+  <div class="logo_content">
+    <div class="logo">
+      <i class='bx bxl-c-plus-plus'></i>
+    <div class="logo_name">CodingLab</div>
+  </div>
+  <i class='bx bx-menu' id="btn" (click)="toggle()"></i>
+  </div>
+  
+  
+  <div [ngbCollapse]="isMenuCollapsed" class=" navbar-collapse collapse">
+ <ul ngbNav #nav="ngbNav"   orientation="vertical">
+    <li>
+      <a href="">
+        <i class='bx bx-grid-alt'></i>
+        <span class="links_name">Dashboard</span>
+      </a>
+      <span class="tooltip">Dashboard</span>
+    </li>
+    <li>
+      <a href="">
+        <i class='bx bx-user'></i>
+        <span class="links_name">User</span>
+      </a>
+      <span class="tooltip">User</span>
+    </li>
+    <li>
+      <a href="">
+        <i class='bx bx-chat' ></i>
+        <span class="links_name">Messages</span>
+      </a>
+      <span class="tooltip">Messages</span>
+    </li>
+    <li>
+      <a href="">
+        <i class='bx bx-info-circle'></i>
+        <span class="links_name" >About</span>
+      </a>
+      <span class="tooltip">About</span>
+    </li>
+    <li>
+      <a href="">
+        <i class='bx bx-phone'></i>
+        <span class="links_name">Phone</span>
+      </a>
+      <span class="tooltip">Phone</span>
+    </li>
+    <li>
+      <a href="">
+        <i class='bx bx-file'></i>
+        <span class="links_name">File</span>
+      </a>
+      <span class="tooltip">Files</span>
+    </li>
+  </ul>
+
+</div>
+
+</div>
+<div class="home_content">
+  <div class="text">Home Content</div>
+</div>
+ -->
+ <app-sidebar></app-sidebar>

@@ -1,0 +1,57 @@
+<div class="sidebar"  [ngClass]="{'active': toggled}">
+    <div class="logo_content">
+      <div class="logo">
+        <i class='bx bxl-c-plus-plus'></i>
+      <div class="logo_name">CodingLab</div>
+    </div>
+    <i class='bx bx-menu' id="btn" (click)="toggle()"></i>
+    </div>
+
+
+    <div >
+   <ul class='navbar-nav'>
+      <li>
+        <a routerLink="/">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+      <li>
+        <a routerLink="about">
+          <i class='bx bx-user'></i>
+          <span class="links_name">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+      <li>
+        <a routerLink="">
+          <i class='bx bx-chat' ></i>
+          <span class="links_name">Messages</span>
+        </a>
+        <span class="tooltip">Messages</span>
+      </li>
+      <li>
+        <a  routerLink="services">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name" >Services</span>
+        </a>
+        <span class="tooltip">Services</span>
+      </li>
+      <li>
+        <a routerLink="contact">
+          <i class='bx bx-phone'></i>
+          <span class="links_name">Contact</span>
+        </a>
+        <span class="tooltip">Contact</span>
+      </li>
+
+    </ul>
+
+  </div>
+
+  </div>
+  <div class="home_content">
+    <div class="text">Home Content</div>
+  </div>
+
